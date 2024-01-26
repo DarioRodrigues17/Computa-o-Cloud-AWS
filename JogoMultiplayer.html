@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe - Jogo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="jogos.html">Jogos</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+                <li><a href="logout.php">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+         <h1>Tic Tac Toe</h1>
+            <div id="gameboard">
+                <div class="box" id="0"></div>
+                <div class="box" id="1"></div>
+                <div class="box" id="2"></div>
+                <div class="box" id="3"></div>
+                <div class="box" id="4"></div>
+                <div class="box" id="5"></div>
+                <div class="box" id="6"></div>
+                <div class="box" id="7"></div>
+                <div class="box" id="8"></div>
+            </div>
+        </div>
+        <div id="playerInfo">
+            <span id="playerName"></span>
+            <img id="playerIcon" src="" alt="Ícone do jogador">
+        </div>
+        <form id="moveForm">
+            <label for="move">Faça sua jogada:</label>
+            <input type="text" id="move" name="move" maxlength="1" pattern="[0-8]" required>
+            <button type="submit">Jogar</button>
+        </form>
+        <div id="status"></div>
+    </main>
+    <script src="game_logic_multiplayer.js"></script>
+</body>
+</html>
