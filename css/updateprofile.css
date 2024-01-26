@@ -1,0 +1,117 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ body {
+   font-family: Arial, sans-serif;
+   background-color: #f2f2f2;
+ }
+ 
+ .update-profile {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   align-items: center;
+ }
+ 
+ .update-profile form {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .update-profile img {
+   display: block;
+   margin: 0 auto 20px;
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+   border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .update-profile .inputBox {
+   flex-basis: 45%;
+   margin-bottom: 20px;
+ }
+ 
+ 
+ .update-profile .inputBox span {
+   display: block;
+   margin-bottom: 5px;
+   font-weight: bold;
+ }
+ 
+ .update-profile .inputBox input[type="text"],
+ .update-profile .inputBox input[type="email"],
+ .update-profile .inputBox input[type="password"],
+ .update-profile .inputBox input[type="file"] {
+   display: block;
+   width: 100%;
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   background-color: #f2f2f2;
+   font-size: 16px;
+   color: #333;
+ }
+ 
+ .update-profile .inputBox input[type="submit"] {
+   display: block;
+   margin: 20px auto 0;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   background-color: #4CAF50;
+   color: #fff;
+   font-size: 16px;
+   cursor: pointer;
+   align-items: right;
+ }
+ 
+ .update-profile .delete-btn {
+   display: block;
+   margin-top: 20px;
+   color: #333;
+   font-size: 16px;
+   text-decoration: none;
+   transition: color 0.3s ease;
+   align-items: right;
+ }
+ 
+ .update-profile .delete-btn:hover {
+   color: #4CAF50;
+ }
+ .button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  color: #333;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.delete-btn:hover {
+  color: #4CAF;
+}
+ 
